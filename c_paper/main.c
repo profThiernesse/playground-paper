@@ -7,7 +7,7 @@ int main()
     int i;
     struct spaper table;
 
-    init_paper(20,20,30);
+    init_paper(20,20,25);
     move_to(0,7);
     colorize();
     move_right();

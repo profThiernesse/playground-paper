@@ -1,10 +1,10 @@
-title: C++ Project
+title: Demo Paper
 plan:
-- title: Welcome
+- title: Demo
   statement: markdowns/welcome.md
 projects:
-  cpp:
-    root: /cpp-project
+  paper:
+    root: /c_paper
     runner:
       name: techio/cmake-gcc-runner
       version: latest
