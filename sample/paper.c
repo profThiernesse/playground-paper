@@ -106,6 +106,7 @@ void _create_table(struct spaper work) {
     }
     fputs("</table>",fp);
     fclose(fp);
+	if (work.status==1) printf("TECHIO> success false\n");
 }
 
 void _create_quad(char *buffer,struct RGB color,int dim) {
