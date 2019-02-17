@@ -22,7 +22,7 @@ void move_to(int l, int c) {
     _move_to(&_paper,l,c);
 }
 void colorize() {
-    _colorize(_paper);
+    _colorize(&_paper);
 }
 void change_color(int red, int green, int bleue) {
     _change_color(&_paper,red,green,bleue);
@@ -79,11 +79,12 @@ void _init_paper(struct spaper *paper,int nbl, int nbc, int size) {
 	paper->status=0;
 }
 
-void _colorize(struct spaper work) {
-    if (work.c>=0 && work.l>=0 && work.c<work.nbc && work.l<work.nbl)
-        *(work.table+work.l*work.nbc+work.c)=work.current_color;
+void _colorize(struct spaper *work) {
+    if (work->c>=0 && work->l>=0 && work->c<work->nbc && work->l<work->nbl)
+        *(work->table+work->l*work->nbc+work->c)=work->current_color;
     else {
         printf("TECHIO> message --channel \"Error\" OPERATION OUT OF RANGE\n");
+		work->status=1;
 	}
 }
 

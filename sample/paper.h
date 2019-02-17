@@ -36,7 +36,7 @@ void _move_up(struct spaper *);
 void _move_left(struct spaper *);
 void _move_right(struct spaper *);
 void _move_to(struct spaper *, int, int);
-void _colorize(struct spaper);
+void _colorize(struct spaper *);
 void _change_color(struct spaper *work, int, int, int);
 void _create_quad(char *,struct RGB ,int);
 
