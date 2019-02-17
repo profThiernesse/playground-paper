@@ -6,4 +6,4 @@ The source code is on [GitHub](https://github.com/TechDotIO/cpp-template), pleas
 
 # Demo Paper
 
-@[Manage with paper]({"stubs": ["src/Exercises/main.c"],"command": "sh /project/target/run.sh"})
+@[Manage with paper]({"stubs": ["main.c"],"command": "sh /project/target/run.sh"})
