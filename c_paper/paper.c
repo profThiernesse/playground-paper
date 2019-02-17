@@ -3,7 +3,7 @@
 void init_paper(int nbl, int nbc, int size) {
     _init_paper(&_paper,nbl,nbc,size);
 }
-void create_table() {
+void display_paper() {
     _create_table(_paper);
 }
 void move_down() {

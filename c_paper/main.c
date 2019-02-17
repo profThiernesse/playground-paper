@@ -16,7 +16,7 @@ int main()
         change_color(125,55,10);
     } loop;
 
-    create_table();
+    display_paper();
 
     return 0;
 }

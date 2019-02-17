@@ -41,7 +41,7 @@ void _change_color(struct spaper *work, int, int, int);
 void _create_quad(char *,struct RGB ,int);
 
 void init_paper(int, int, int);
-void create_table();
+void display_paper();
 void move_down();
 void move_up();
 void move_left();
