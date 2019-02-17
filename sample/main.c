@@ -5,7 +5,7 @@
 int main()
 {
     init_paper(22,17,10);
-    Colorize();
+    colorize();
     display_paper();
     return 0;
 }
