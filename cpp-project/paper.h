@@ -22,6 +22,7 @@ struct spaper {
     int nbc;
     int nbl;
     int quad_size;
+	int status;
     struct RGB current_color;
     struct RGB *table;
 };

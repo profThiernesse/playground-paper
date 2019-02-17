@@ -76,13 +76,15 @@ void _init_paper(struct spaper *paper,int nbl, int nbc, int size) {
         }
     }
     paper->table=dummy;
+	paper->status=0;
 }
 
 void _colorize(struct spaper work) {
     if (work.c>=0 && work.l>=0 && work.c<work.nbc && work.l<work.nbl)
         *(work.table+work.l*work.nbc+work.c)=work.current_color;
-    else
-        printf("TECHIO> message --channel \"Error\" OPERATION OUT OF RANGE\nTECHIO> success false\n");
+    else {
+        printf("TECHIO> message --channel \"Error\" OPERATION OUT OF RANGE\n");
+	}
 }
 
 void _create_table(struct spaper work) {
