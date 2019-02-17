@@ -8,3 +8,8 @@ projects:
     runner:
       name: techio/cmake-gcc-runner
       version: latest
+  sample:
+    root: /sample
+    runner:
+      name: techio/cmake-gcc-runner
+      version: latest
