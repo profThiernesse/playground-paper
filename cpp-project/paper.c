@@ -82,7 +82,7 @@ void _colorize(struct spaper work) {
     if (work.c>=0 && work.l>=0 && work.c<work.nbc && work.l<work.nbl)
         *(work.table+work.l*work.nbc+work.c)=work.current_color;
     else
-        printf("OPERATION OUT OF RANGE\n");
+        printf("TECHIO> message --channel \"Error\" OPERATION OUT OF RANGE\nTECHIO> success false\n");
 }
 
 void _create_table(struct spaper work) {

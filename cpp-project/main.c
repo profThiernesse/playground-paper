@@ -21,21 +21,6 @@ int main()
 
     create_table();
 
-    /*
-    _init_paper(&table,20,20,20);
-    _move_to(&table,0,7);
-    _colorize(table);
-    _move_right(&table);
-    _change_color(&table,0,155,0);
-    _colorize(table);
-    for (i=0;i<19;i++) {
-        _move_down(&table);
-        _colorize(table);
-        _change_color(&table,0,155,i*10);
-    }
-    _create_table(table);
-    */
-
     return 0;
 }
 
