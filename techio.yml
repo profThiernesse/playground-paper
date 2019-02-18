@@ -18,3 +18,8 @@ projects:
     runner:
       name: php
       version: latest
+  php2:
+    root: /php-c2
+    runner:
+      name: php
+      version: latest
