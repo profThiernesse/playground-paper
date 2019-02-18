@@ -13,8 +13,3 @@ projects:
     runner:
       name: techio/cmake-gcc-runner
       version: latest
-  sample:
-    root: /include
-    runner:
-      name: techio/cmake-gcc-runner
-      version: latest
