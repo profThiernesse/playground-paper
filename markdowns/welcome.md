@@ -16,3 +16,7 @@ Les fonctionnalités :
 
 
 @[Manage with paper]({"stubs": ["main.c"],"command": "sh /project/target/run.sh", "project" : "paper"})
+
+#TEST PHP INCLUDE
+
+@[PHP - C]({"stubs": ["contents.php"],"command": "sh /project/target/run.sh", "project" : "php"})

@@ -13,3 +13,8 @@ projects:
     runner:
       name: techio/cmake-gcc-runner
       version: latest
+  php:
+    root: /php-c
+    runner:
+      name: php
+      version: latest
