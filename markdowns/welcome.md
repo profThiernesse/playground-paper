@@ -16,3 +16,7 @@ Les fonctionnalités :
 
 
 @[Manage with paper]({"stubs": ["main.c"],"command": "sh /project/target/run.sh", "project" : "paper"})
+
+# TEST INCLUDE
+
+@[Include]({"stubs": ["main.c"],"command": "sh /project/target/run.sh", "project" : "include"})
