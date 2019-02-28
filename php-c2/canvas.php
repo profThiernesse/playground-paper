@@ -6,9 +6,9 @@ int main()
 	int a=5;
 	
 	if (<?php include("contents.php"); ?>)
-		printf("Nombre pair");
+		printf("TECHIO> success true  \r\n");
 	else
-		printf("Nombre impair");
+		printf("TECHIO> success false  \r\n");
 	
     return 0;
 }
