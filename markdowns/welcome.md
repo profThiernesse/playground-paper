@@ -19,7 +19,11 @@ Les fonctionnalités :
 
 #TEST PHP INCLUDE
 
+Déclarer un entier `a` et un entier `b`.
+
 @[PHP - C]({"stubs": ["contents.php"],"command": "sh /project/target/run.sh", "project" : "php"})
 
-@[PHP - C]({"stubs": ["contents.php"],"command": "sh /project/target/run.sh", "project" : "php2"})
+Ecrire la condition pour déterminer si une variable `a` est paire.
+
+@[PHP - C]({"stubs": ["contents.php"],"command": "sh /project/target/run.sh canvas.php", "project" : "php2"})
 

@@ -1,5 +1,5 @@
 #!/bin/sh
-php canvas.php > prg.c
+php $1 > prg.c
 
 gcc prg.c -o prg
 ./prg
